@@ -28,15 +28,15 @@ TEST_CASE("Word isn't part of the text"){
     CHECK_THROWS_WITH(find(text,"ab(ba"), "Word isn't part of the text");
     CHECK_THROWS_WITH(find(text,"ab&ba"), "Word isn't part of the text");
     CHECK_THROWS_WITH(find(text,"ab.ba"), "Word isn't part of the text");
-     CHECK_THROWS_WITH(find(text,"ab=ba"), "Word isn't part of the text");
-      CHECK_THROWS_WITH(find(text,"ab_ba"), "Word isn't part of the text");
-       CHECK_THROWS_WITH(find(text,"ab$ba"), "Word isn't part of the text");
-        CHECK_THROWS_WITH(find(text,"ab@ba"), "Word isn't part of the text");
-        CHECK_THROWS_WITH(find(text,"ab[ba"), "Word isn't part of the text");
-         CHECK_THROWS_WITH(find(text,"ab*ba"), "Word isn't part of the text");
-         CHECK_THROWS_WITH(find(text,"ab/ba"), "Word isn't part of the text");
-          CHECK_THROWS_WITH(find(text,"ab~ba"), "Word isn't part of the text");
-            CHECK_THROWS_WITH(find(text,"ab;ba"), "Word isn't part of the text");
+    CHECK_THROWS_WITH(find(text,"ab=ba"), "Word isn't part of the text");
+    CHECK_THROWS_WITH(find(text,"ab_ba"), "Word isn't part of the text");
+    CHECK_THROWS_WITH(find(text,"ab$ba"), "Word isn't part of the text");
+    CHECK_THROWS_WITH(find(text,"ab@ba"), "Word isn't part of the text");
+    CHECK_THROWS_WITH(find(text,"ab[ba"), "Word isn't part of the text");
+    CHECK_THROWS_WITH(find(text,"ab*ba"), "Word isn't part of the text");
+    CHECK_THROWS_WITH(find(text,"ab/ba"), "Word isn't part of the text");
+    CHECK_THROWS_WITH(find(text,"ab~ba"), "Word isn't part of the text");
+    CHECK_THROWS_WITH(find(text,"ab;ba"), "Word isn't part of the text");
 }
 
 TEST_CASE("word is almost a text substring but missing one letter or more"){
