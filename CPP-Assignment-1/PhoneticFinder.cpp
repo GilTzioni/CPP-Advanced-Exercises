@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdexcept>
 #include "PhoneticFinder.hpp"
-#include<bits/stdc++.h> 
+#include <bits/stdc++.h> 
 #include <stdbool.h>
 
 using namespace std;
